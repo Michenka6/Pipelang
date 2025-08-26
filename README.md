@@ -1,0 +1,4 @@
+# Build
+```console
+    $ odin run .
+```
