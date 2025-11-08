@@ -1,0 +1,17 @@
+program ::=
+        | block+
+
+block ::= 
+      | '[' block+ ']'
+      | '{' block+ '|' IDENT '}'
+      | function
+
+function ::=
+         | IDENT ( '/' IDENT )*
+         | '(' program ')'
+         | unary_fun
+
+unary_fun ::=
+          | op number
+
+op ::= '*' | '-'

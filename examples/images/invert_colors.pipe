@@ -1,0 +1,9 @@
+[ 
+    [ file/read rgb ]
+    { 
+      [ rgb/r (- 255) ] 
+      [ rgb/g (- 255) ]
+      [ rgb/b (- 255) ]
+    | sum }
+    rgb/components3_to_rgb
+]
