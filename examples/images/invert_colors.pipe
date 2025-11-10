@@ -1,5 +1,5 @@
 [ 
-    [ file/read rgb ]
+    [ buffer/read | rgb ]
     { 
       [ rgb/r (- 255) ] 
       [ rgb/g (- 255) ]

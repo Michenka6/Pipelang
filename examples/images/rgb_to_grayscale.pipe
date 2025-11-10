@@ -1,5 +1,5 @@
 [
-    [ file/read rgb ]
+    [ buffer/read | rgb ]
     { [ rgb/r u8/to_f32 (* 0.299) ]
       [ rgb/g u8/to_f32 (* 0.587) ]
       [ rgb/b u8/to_f32 (* 0.114) ]
