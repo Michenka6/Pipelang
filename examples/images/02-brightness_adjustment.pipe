@@ -1,0 +1,7 @@
+[
+    rgb
+    { [ rgb/r (+ 100) (max 0) (min 255) ]
+      [ rgb/g (+ 100) (max 0) (min 255) ]
+      [ rgb/b (+ 100) (max 0) (min 255) ]
+    | concat }
+]

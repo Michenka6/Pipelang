@@ -1,0 +1,7 @@
+[
+    rgb
+    { [ rgb/r u8/to_f32 (/ 255.0) (pow 2.2) (* 255.0) f32/to_u8 (max 0) (min 255) ]
+      [ rgb/g u8/to_f32 (/ 255.0) (pow 2.2) (* 255.0) f32/to_u8 (max 0)(min 255) ]
+      [ rgb/b u8/to_f32 (/ 255.0) (pow 2.2) (* 255.0) f32/to_u8 (max 0) (min 255) ]
+    | concat }
+]
